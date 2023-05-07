@@ -1,0 +1,346 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* header section start */
+
+header{  
+background-color: #F6F9F9;   
+/* width: 80%;  
+margin: auto; */
+}
+.css_color{
+text-transform: uppercase;
+color: #2d3950;
+font-family: 'Lato', sans-serif;
+
+}
+/* header section end*/
+
+
+
+
+/* bannar section start =================================================*/
+
+
+.bannar{
+    background-image: url(../image/bannar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 94vh;
+    position: relative;
+}
+
+
+.bannar_content{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+.bannar_content h1 {
+color: #ffffff;
+font-family: 'Lato', sans-serif;
+font-size:  70px;
+text-align: center;
+text-transform: uppercase;
+}
+.bannar_content span{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    height: 2px;
+    background: #15a4fa;
+    margin: 20px 0;
+}
+.bannar_content p{
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    word-spacing: 4px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bannar_content button{ 
+background: transparent;
+color: white; 
+text-transform: capitalize;
+border: 1px solid #15a4fa; 
+padding: 13px 30px;
+transition: 0.4s all ease-in-out; 
+margin: 0;
+font-size: 18px;
+}
+
+.bannar_content button:hover{
+ background-color: #15a4fa;
+ cursor: pointer;
+}
+.icon{
+font-size: 50px;   
+color: #ffffff;  
+position: absolute;   
+left: 50%;  
+bottom: 10%;  
+transform: translate(-50%, -10%);
+animation: updown 2s linear infinite;
+animation-direction: alternate;
+
+}
+ @keyframes updown {
+    0%{color: #15a4fa;
+        bottom: 100px;
+
+    }
+    100%{color: #15a4fa;
+        bottom: 150px;
+
+    }
+ }
+/* simple design start ===============================*/
+ .simple_design{
+
+background: #f6f9f9;
+text-align: center;
+
+}
+ .simple_design h1 {
+    font-family: 'Lato', sans-serif;
+color: #2d3950;
+ }
+ .simple_design p {
+    font-family: 'Lato', sans-serif;
+color: #999999;
+ }
+ /* simple design end =========================*/
+
+ /* feature section start================================ */
+
+ .feature{
+background: #ffffff;
+text-align:  center;
+}
+ .feature h1{   
+color: #2d3950;
+font-family: 'Lato', sans-serif;
+font-size: 27px;   
+margin-top: 13px;  
+text-align: center;   
+margin-top: 35px;
+ }
+ .feature p{  
+color: #999999;   
+font-size: 15px;   
+margin-top: 16px;
+font-family: 'Lato', sans-serif;  
+text-align: center;   
+margin-top: 20px;
+ }
+ .feature_item{
+    text-align: center;
+ }
+.icons{
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+50,5fc3ff+50,5fc3ff+50 */
+background: rgb(72,186,255); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(72,186,255,1) 50%, rgba(95,195,255,1) 50%, rgba(95,195,255,1) 50%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(72,186,255,1) 50%,rgba(95,195,255,1) 50%,rgba(95,195,255,1) 50%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(72,186,255,1) 50%,rgba(95,195,255,1) 50%,rgba(95,195,255,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+font-size: 55px;
+height: 100px;
+color: #ffffff;
+line-height: 100px;
+text-align: center;
+width: 100px;
+margin: auto;
+
+}
+ /* feature section end================================ */
+
+/* gELARY section star =------------------------- */
+ .gallary{background-color: #f6f9f9;
+
+ }
+ .gallary p{color: #909090;;
+    font-family: 'Lato', sans-serif;
+    
+ }
+ .gallary h1{ color: #2d3950;
+    font-family: 'Lato', sans-serif;
+    
+ }
+
+
+.image{
+position: relative;
+text-align: center;
+}
+.image::before{
+    position: absolute;
+    content: " ";
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    opacity: 0.8;
+    background-color: #15a4fa;
+    transition: .5s all ease-in-out;
+}
+
+.image:hover:before{
+    width: 100%;
+}
+
+.gelary_icon{ 
+display: flex;  
+position: absolute;  
+left: 50%;  
+top: 50%; 
+transform: translate(-50%, -50%);  
+color: white; 
+font-size: 15px;
+line-height: 10px;
+}
+
+.gelary_icon_item{
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: 8px 14px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+.gelary_icon_item_2{
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: 8px 14px;
+    border-radius: 2px;
+    margin-right: 10px;
+
+}
+ /* gELARY section end =------------------------- */
+
+
+ /* form design section start================================= */
+.form_desing{
+    background-image: url(../image/form_imagepicture.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;}
+   
+.centerpoint{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.centerpoint form input{  
+background: transparent; 
+border: none;
+border: 1px solid #f6f9f9;  
+border-radius: inherit;
+}
+.centerpoint form textarea{
+    background: transparent;
+    border: none;
+    border: 1px solid #f6f9f9 ;
+}
+.centerpoint form textarea::placeholder{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    
+}
+.centerpoint form textarea:focus{
+    outline: none;
+}
+.centerpoint input:focus{
+    outline: none;
+}
+.centerpoint form input::placeholder{
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}
+.form_desing::before{
+    content: " ";
+    background: #2c374b;
+    position: absolute;
+    width: 100%;
+    opacity: 0.8;
+    height: 100%;
+    z-index: 0;
+}
+.check{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.check p{   
+color: #f9f9f9;  
+text-align: center;
+margin: 0;
+margin-left: 10px;
+}
+
+
+.btn_sent{
+    background-color: transparent;
+    color: #ffffff;
+    padding: 10px 35px;
+    font-size: 20px;
+    border: none;
+    border: 1px solid #15a4fa;
+}
+.btn_sent:hover{
+    background-color: #15a4fa ;
+}
+ /* form design section end================================= */
+
+
+
+ /* footer section start============================= */
+
+ footer{
+background: #f9f9f9f9;
+padding: 20px 10px;
+
+}
+ .copy{
+
+ }
+ .copy ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+ .copy ul li{ 
+font-size: 13px;   
+color: #999999;
+ }
+ .socil_icon{
+padding: 0px;
+}
+ .socil_icon ul{margin: 0;padding: 0;
+    list-style: none;display: flex;
+    align-items: center;
+    justify-content: end;
+}
+ .socil_icon ul li{margin-left: 10px;
+    height: 30px;width: 30px;
+    background: #15a4fa;
+    line-height: 30px;margin-left: 15px;
+    text-align: center;
+}
+ .socil_icon ul li a{  
+color: #dfbfbf;   
+text-decoration: none;  
+color: #ffffff;
+ }
+ 
+ /* footer section end======================= */
